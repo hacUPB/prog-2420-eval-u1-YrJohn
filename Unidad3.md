@@ -51,15 +51,16 @@ Codigo DNI
 
 Datos entrada:
 DNI
-
-Inicio
-Leer DNI
-Si DNI contiene caracter distinto a numero
-    Imprimir "DNI invalido"
-Suma=0
-Suma=suma+(n) digitos DNI
-Vald=Suma/10
-si vald es igual a un entero
-    Imprimir "DNI valido"
-Si vald es diferente a un entero
-    Imprimir "DNI invalido"
+    Inicio
+    Leer DNI
+    Si DNI contiene caracter distinto a numero
+        Imprimir "DNI invalido"
+    Suma=0
+    Suma=suma+(n) digitos DNI
+    Vald=Suma/10
+    si vald es igual a un entero
+        Imprimir "DNI valido"
+    Si vald es diferente a un entero
+        Imprimir "DNI invalido"
+        
+        Fin
