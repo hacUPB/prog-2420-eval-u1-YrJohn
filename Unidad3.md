@@ -46,20 +46,20 @@ Datos entrada:
 DNI
     Inicio
     Leer DNI
-    Si DNI contiene caracter distinto a numero
-        Imprimir "DNI invalido"
+     Si DNI contiene caracter distinto a numero
+         Imprimir "DNI invalido"
     Fin si
-    Suma=0
-    Suma=suma+(n) digitos DNI
-    Vald=Suma/10
+     Suma=0
+     Suma=suma+(n) digitos DNI
+     Vald=Suma/10
     si vald es igual a un entero
-        Imprimir "DNI valido"
+         Imprimir "DNI valido"
     Fin si
     Si vald es diferente a un entero
         Imprimir "DNI invalido"
-    Fin si
-        
-        Fin
+     Fin si
+            
+     Fin
 
 
 
@@ -68,22 +68,22 @@ Costo total horas
 
 Datos entrada:NH
 
-Inicio
-Leer NH
-Si NH menor o igual a 2
-    Costo=NH*5
-Fin Si
-Si NH mayor a 2 y menor o igual a 5
-    NH=NH-2
-    costo=NH*4+10
-Fin Si
-Si NH mayor a 5 y menor o igual a 10
-    NH=NH-5
-    Costo=NH*3+22
+    Inicio
+    Leer NH
+    Si NH menor o igual a 2
+        Costo=NH*5
     Fin Si
-Si NH mayor a 10
-    Costo=NH*2
-    Fin si
-    Imprimir Costo
-Fin
+    Si NH mayor a 2 y menor o igual a 5
+        NH=NH-2
+        costo=NH*4+10
+    Fin Si
+    Si NH mayor a 5 y menor o igual a 10
+        NH=NH-5
+        Costo=NH*3+22
+        Fin Si
+    Si NH mayor a 10
+        Costo=NH*2
+        Fin si
+        Imprimir Costo
+    Fin
 
