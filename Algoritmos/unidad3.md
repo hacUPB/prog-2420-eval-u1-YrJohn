@@ -1,15 +1,15 @@
 Ejercioio Unidad 3
 Calcular edad de una persona a partir de su fecha
 
-Datos entrada: 
-Dia actual (Dia_A)
-Dia cumpleaños (Dia_C)
-Mes actual (Mes_A)
-Mes cumpleaños (Mes_C)
-Año actual (Año_A)
-Año cumpleaños (Año_C)
+    Datos entrada: 
+    Dia actual (Dia_A)
+    Dia cumpleaños (Dia_C)
+    Mes actual (Mes_A)
+    Mes cumpleaños (Mes_C)
+    Año actual (Año_A)
+    Año cumpleaños (Año_C)
 
-Inicio
+    Inicio
     Leer Dia actual (Dia_A)
     Leer Dia cumpleaños (Dia_C)
     Leer Mes actual (Mes_A)
@@ -40,23 +40,23 @@ Inicio
 
 
 
-Codigo DNI
+    Codigo DNI
 
-Datos entrada:
-DNI
-    Inicio
+    Datos entrada:
+    DNI
+     Inicio
     Leer DNI
      Si DNI contiene caracter distinto a numero
-         Imprimir "DNI invalido"
+        Imprimir "DNI invalido"
     Fin si
      Suma=0
      Suma=suma+(n) digitos DNI
      Vald=Suma/10
-    si vald es igual a un entero
+     si vald es igual a un entero
          Imprimir "DNI valido"
     Fin si
-    Si vald es diferente a un entero
-        Imprimir "DNI invalido"
+      Si vald es diferente a un entero
+          Imprimir "DNI invalido"
      Fin si
             
      Fin
@@ -64,9 +64,9 @@ DNI
 
 
 
-Costo total horas
+    Costo total horas
 
-Datos entrada:NH
+    Datos entrada:NH
 
     Inicio
     Leer NH
